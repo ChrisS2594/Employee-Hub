@@ -190,7 +190,7 @@ function createHTML(){
 
     mainHTML += `</div></body></html>`;
 
-    fs.writeFile(__dirname + "/output/team.html", mainHTML, (err) => {
+    fs.writeFile(__dirname + "/html/index.html", mainHTML, (err) => {
         if (err) throw err;
         console.log("Saved");
         
